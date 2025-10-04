@@ -20,7 +20,7 @@ def main():
     greet()
     name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    for _ in range(ROUNDS):
+    for _ in range(GAMES_COUNT):
         num = get_num()
         print(f'Question: {num}')
         answer = prompt.string('Your answer: ')
