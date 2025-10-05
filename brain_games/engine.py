@@ -15,7 +15,7 @@ def get_message_for_wrong_answer(user_answer, game_answer):
 def engine(GAME_TASK, get_game_data):
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
-    print(f'Hello, {user_name}')
+    print(f'Hello, {user_name}!')
     print(GAME_TASK)
     is_user_win = True
     for _ in range(GAMES_COUNT):
