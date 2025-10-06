@@ -10,7 +10,7 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=pwr44_devops-engineer-from-scratch-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=pwr44_devops-engineer-from-scratch-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=pwr44_devops-engineer-from-scratch-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=pwr44_devops-engineer-from-scratch-project-49)
 
-### Asciinema: step 5: btain-even
+### Asciinema: step 5: brain-even
 
 [![asciicast](https://asciinema.org/a/746759.svg)](https://asciinema.org/a/746759)
 
@@ -22,3 +22,6 @@
 
 [![asciicast](https://asciinema.org/a/LKymopkNQHeyv55y6M94obHR3.svg)](https://asciinema.org/a/LKymopkNQHeyv55y6M94obHR3)
 
+### Asciinema: step 8: brain-progression
+
+[![asciicast](https://asciinema.org/a/C6YfeEUsekaaOdIIdAwfl0vZi.svg)](https://asciinema.org/a/C6YfeEUsekaaOdIIdAwfl0vZi)
