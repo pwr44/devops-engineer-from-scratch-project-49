@@ -18,7 +18,7 @@ def is_even(num):
 def get_game_data():
     num = get_num()
     answer = 'yes' if is_even(num) else 'no'
-    return [num, answer]
+    return [str(num), answer]
 
 
 def main():
