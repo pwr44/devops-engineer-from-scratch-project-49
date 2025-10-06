@@ -10,22 +10,60 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=pwr44_devops-engineer-from-scratch-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=pwr44_devops-engineer-from-scratch-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=pwr44_devops-engineer-from-scratch-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=pwr44_devops-engineer-from-scratch-project-49)
 
-### Asciinema: step 5: brain-even
+### Hexlet study project № 1: Brain Games
+
+### Setup
+
+```bash
+make install
+```
+
+### Start brain-even
+
+```bash
+make brain-even
+```
+
+### Start brain-calc
+
+```bash
+make brain-calc
+```
+
+### Start brain-gcd
+
+```bash
+make brain-gcd
+```
+
+### Start brain-progression
+
+```bash
+make brain-progression
+```
+
+### Start brain-prime
+
+```bash
+make brain-prime
+```
+
+### Asciinema: brain-even
 
 [![asciicast](https://asciinema.org/a/746759.svg)](https://asciinema.org/a/746759)
 
-### Asciinema: step 6: brain-calc
+### Asciinema: brain-calc
 
 [![asciicast](https://asciinema.org/a/xBVfA6WioDJ7SYInLt7sZVp6X.svg)](https://asciinema.org/a/xBVfA6WioDJ7SYInLt7sZVp6X)
 
-### Asciinema: step 7: brain-gcd
+### Asciinema: brain-gcd
 
 [![asciicast](https://asciinema.org/a/LKymopkNQHeyv55y6M94obHR3.svg)](https://asciinema.org/a/LKymopkNQHeyv55y6M94obHR3)
 
-### Asciinema: step 8: brain-progression
+### Asciinema: brain-progression
 
 [![asciicast](https://asciinema.org/a/C6YfeEUsekaaOdIIdAwfl0vZi.svg)](https://asciinema.org/a/C6YfeEUsekaaOdIIdAwfl0vZi)
 
-### Asciinema: step 9: brain-prime
+### Asciinema:  brain-prime
 
 [![asciicast](https://asciinema.org/a/5IFJqgQEw9TpbY3lFXAPhE8Go.svg)](https://asciinema.org/a/5IFJqgQEw9TpbY3lFXAPhE8Go)
