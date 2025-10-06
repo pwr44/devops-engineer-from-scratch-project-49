@@ -25,3 +25,7 @@
 ### Asciinema: step 8: brain-progression
 
 [![asciicast](https://asciinema.org/a/C6YfeEUsekaaOdIIdAwfl0vZi.svg)](https://asciinema.org/a/C6YfeEUsekaaOdIIdAwfl0vZi)
+
+### Asciinema: step 9: brain-prime
+
+[![asciicast](https://asciinema.org/a/5IFJqgQEw9TpbY3lFXAPhE8Go.svg)](https://asciinema.org/a/5IFJqgQEw9TpbY3lFXAPhE8Go)
