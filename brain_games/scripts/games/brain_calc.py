@@ -8,9 +8,13 @@ MIN_NUMBER = 1
 MAX_NUMBER = 20
 
 
+def get_random_number():
+    return randint(MIN_NUMBER, MAX_NUMBER)
+
+
 def get_game_data():
-    first_member = randint(MIN_NUMBER, MAX_NUMBER)
-    second_member = randint(MIN_NUMBER, MAX_NUMBER)
+    first_member = get_random_number()
+    second_member = get_random_number()
     curr_operator = OPERATORS[randint(0, 2)]
     game_question = str(f'{first_member}{curr_operator}{second_member}')
     game_answer = ''
