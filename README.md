@@ -18,6 +18,12 @@
 make install
 ```
 
+### Install package
+
+```bash
+make package-install
+```
+
 ### Start brain-even
 
 ```bash
