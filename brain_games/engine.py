@@ -20,7 +20,7 @@ def engine(GAME_TASK, get_game_data):
     is_user_win = True
     for _ in range(GAMES_COUNT):
         game_question, game_answer = get_game_data()
-        print(f'Qwestion: {game_question}')
+        print(f'Question: {game_question}')
         user_answer = get_user_answer()
         if user_answer == game_answer:
             print('Correct!')
