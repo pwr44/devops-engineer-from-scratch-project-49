@@ -18,15 +18,10 @@ def get_second_number(first_number, random_member):
     return second_number
 
 
-def get_gcd(num_1, num_2):
-    max_num = num_1 if num_1 > num_2 else num_2
-    gcd = 1
-    counter = 2
-    while counter <= max_num / 2:
-        if num_1 % counter == 0 and num_2 % counter == 0:
-            gcd = counter
-        counter += 1
-    return gcd
+def get_gcd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
 
 
 def get_game_data():
