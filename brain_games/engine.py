@@ -7,11 +7,6 @@ def get_user_answer():
     return prompt.string('Your answer: ')
 
 
-def get_message_for_wrong_answer(user_answer, game_answer):
-    message = ' is wrong answer ;(. Correct answer is '
-    return f"'{user_answer}'{message}'{game_answer}'."
-
-
 def engine(GAME_TASK, get_game_data):
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
@@ -25,7 +20,8 @@ def engine(GAME_TASK, get_game_data):
         if user_answer == game_answer:
             print('Correct!')
         else:
-            print(get_message_for_wrong_answer(user_answer, game_answer))
+            print(f"'{user_answer}' is wrong answer ;(. "
+                  f"Correct answer is '{game_answer}'.")
             is_user_win = False
             break
     final_message = 'Congratulations' if is_user_win else "Let's try again"
