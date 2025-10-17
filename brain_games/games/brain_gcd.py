@@ -1,7 +1,5 @@
 from random import randint
 
-from brain_games.engine import engine
-
 GAME_TASK = 'Find the greatest common divisor of given numbers.'
 MIN_NUMBER = 2
 MAX_NUMBER = 10
@@ -32,11 +30,3 @@ def get_game_data():
     game_question = f'{first_number} {second_number}'
     game_answer = str(gcd)
     return [game_question, game_answer]
-
-
-def main():
-    engine(GAME_TASK, get_game_data)
-
-
-if __name__ == "__main__":
-    main()

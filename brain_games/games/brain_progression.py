@@ -1,7 +1,5 @@
 from random import randint
 
-from brain_games.engine import engine
-
 GAME_TASK = 'What number is missing in the progression?'
 MIN_NUMBER = 1
 MAX_NUMBER = 10
@@ -27,11 +25,3 @@ def get_game_data():
     missed_member = progression[missed_member_position]
     progression[missed_member_position] = '..'
     return [' '.join(progression), missed_member]
-
-
-def main():
-    engine(GAME_TASK, get_game_data)
-
-
-if __name__ == "__main__":
-    main()

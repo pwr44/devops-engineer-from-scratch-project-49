@@ -1,7 +1,5 @@
 from random import randint
 
-from brain_games.engine import engine
-
 GAME_TASK = 'What is the result of the expression?'
 OPERATORS = [' + ', ' - ', ' * ']
 MIN_NUMBER = 1
@@ -26,11 +24,3 @@ def get_game_data():
         case ' * ':
             game_answer = str(first_member * second_member)
     return [game_question, game_answer]
-
-
-def main():
-    engine(GAME_TASK, get_game_data)
-
-
-if __name__ == "__main__":
-    main()

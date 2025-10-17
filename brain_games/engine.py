@@ -7,14 +7,14 @@ def get_user_answer():
     return prompt.string('Your answer: ')
 
 
-def engine(GAME_TASK, get_game_data):
+def engine(game_task: str, func_game_data: callable):
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!')
-    print(GAME_TASK)
+    print(game_task)
     is_user_win = True
     for _ in range(GAMES_COUNT):
-        game_question, game_answer = get_game_data()
+        game_question, game_answer = func_game_data()
         print(f'Question: {game_question}')
         user_answer = get_user_answer()
         if user_answer == game_answer:
